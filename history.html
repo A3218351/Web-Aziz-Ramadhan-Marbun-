@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sejarah HTML</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f4ff;
+      color: #222;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* NAVBAR */
+    nav {
+      background-color: #1a237e;
+      padding: 14px 24px;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 15px;
+    }
+
+    nav a:hover {
+      color: #ffd600;
+    }
+
+    /* HEADER */
+    .header {
+      background-color: #1a237e;
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    .header h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    .header p {
+      font-size: 16px;
+      opacity: 0.85;
+    }
+
+    /* KONTEN */
+    .konten {
+      max-width: 750px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    h2 {
+      font-size: 22px;
+      color: #1a237e;
+      margin-bottom: 16px;
+      border-left: 5px solid #ffd600;
+      padding-left: 10px;
+    }
+
+    
+    .kartu {
+      background-color: white;
+      border: 3px solid #1a237e;
+      border-radius: 20px;
+      padding: 20px;
+      margin-bottom: 16px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    .kartu h3 {
+      font-size: 18px;
+      margin-bottom: 8px;
+      color: #1a237e;
+    }
+
+    .kartu p {
+      font-size: 15px;
+      line-height: 1.7;
+      color: #444;
+    }
+
+    /* TIMELINE */
+    .timeline-item {
+      display: flex;
+      gap: 16px;
+      margin-bottom: 16px;
+    }
+
+    .tahun {
+      background-color: #1a237e;
+      color: #ffd600;
+      font-weight: bold;
+      font-size: 14px;
+      padding: 6px 12px;
+      border-radius: 20px;
+      height: fit-content;
+      white-space: nowrap;
+    }
+
+    .isi {
+      background-color: white;
+      border-radius: 10px;
+      padding: 14px 18px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+      flex: 1;
+    }
+
+    .isi p {
+      font-size: 15px;
+      line-height: 1.6;
+      color: #444;
+    }
+
+    /* FAKTA */
+    .fakta-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .fakta-list li {
+      background-color: white;
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin-bottom: 12px;
+      font-size: 15px;
+      line-height: 1.6;
+      color: #444;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    }
+
+    
+    footer {
+      background-color: #1a237e;
+      color: rgba(255,255,255,0.75);
+      text-align: center;
+      padding: 18px;
+      font-size: 14px;
+      margin-top: 50px;
+    }
+
+    footer span {
+      color: #ffd600;
+    }
+  </style>
+</head>
+<body>
+
+  
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="referensi.html">referensi</a>
+    <a href="history.html">history</a>
+  </nav>
+
+  
+  <div class="header">
+    <h1> Sejarah HTML & Coding</h1>
+    <p>Dari satu ilmuwan, lahirlah teknologi yang mengubah dunia.</p>
+  </div>
+
+  
+  <div class="konten">
+
+    <h2> Para Penemu</h2>
+
+    <div class="kartu">
+      <h3> Tim Berners-Lee — Penemu HTML</h3>
+      <p>Pada tahun 1991, Tim Berners-Lee bekerja di laboratorium fisika CERN di Swiss. Ia membuat HTML agar para ilmuwan bisa berbagi dokumen lewat internet. Dari situlah World Wide Web (WWW) lahir!</p>
+    </div>
+
+    <div class="kartu">
+      <h3> Ada Lovelace — Programmer Pertama</h3>
+      <p>Jauh sebelum ada komputer modern, Ada Lovelace (1815–1852) sudah menulis algoritma pertama di dunia. Ia dianggap sebagai programmer pertama dalam sejarah — dan ia adalah seorang wanita!</p>
+    </div>
+
+    <div class="kartu">
+      <h3> aziz ramadhan — Bapak Ilmu Komputer</h3>
+      <p>Alan Turing adalah matematikawan yang meletakkan dasar teori komputer modern. Konsepnya menjadi pondasi cara kerja komputer hingga hari ini.</p>
+    </div>
+
+    
+    <h2> Timeline HTML</h2>
+
+    <div class="timeline-item">
+      <div class="tahun">1991</div>
+      <div class="isi"><p> HTML pertama kali diperkenalkan oleh Tim Berners-Lee. Website pertama di dunia pun dibuat!</p></div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="tahun">1995</div>
+      <div class="isi"><p> HTML 2.0 resmi distandarisasi. Mulai ada form dan tabel.</p></div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="tahun">1997</div>
+      <div class="isi"><p> HTML 4.0 hadir dengan dukungan CSS dan JavaScript. Website jadi makin cantik!</p></div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="tahun">2014</div>
+      <div class="isi"><p> HTML5 resmi menjadi standar dunia. Inilah versi yang kita pakai sampai sekarang!</p></div>
+    </div>
+
+    <!-- FAKTA UNIK -->
+    <h2> Fakta Unik</h2>
+
+    <ul class="fakta-list">
+      <li> <strong>Asal kata "bug":</strong> Istilah ini berasal dari tahun 1947, saat ngengat sungguhan nyangkut di dalam komputer!</li>
+      <li> <strong>HTML bukan bahasa pemrograman.</strong> HTML adalah Markup Language — tugasnya hanya menyusun struktur halaman.</li>
+      <li> <strong>Berners-Lee tidak mematenkan temuannya.</strong> Ia memberikan WWW secara gratis untuk seluruh dunia!</li>
+    </ul>
+
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>@azizramadhann></p>
+  </footer>
+
+</body>
+</html>

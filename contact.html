@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Aziz Ramadhan</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f4ff;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav {
+      background-color: #4a6cf7;
+      padding: 12px 20px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-right: 16px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    .section {
+      background-color: white;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    .section h1 {
+      color: #4a6cf7;
+      margin-top: 0;
+    }
+
+    label {
+      display: block;
+      font-weight: bold;
+      margin-top: 14px;
+      margin-bottom: 4px;
+      color: #333;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 8px 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 14px;
+      box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+      margin-top: 16px;
+      background-color: #4a6cf7;
+      color: white;
+      border: none;
+      padding: 10px 24px;
+      border-radius: 6px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #3a5be0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 16px;
+      background-color: #4a6cf7;
+      color: white;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav>
+  <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="referensi.html">referensi</a>
+    <a href="history.html">history</a>
+  </nav>
+
+  <div class="container">
+
+    <div class="section">
+      <h1>Hubungi Saya</h1>
+      <p>Silakan isi form di bawah ini untuk menghubungi saya.</p>
+
+      <form>
+        <label for="nama">Nama</label>
+        <input type="text" id="nama" placeholder="Masukkan nama kamu">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Masukkan email kamu">
+
+        <label for="pesan">Pesan</label>
+        <textarea id="pesan" rows="5" placeholder="Tulis pesan kamu di sini..."></textarea>
+
+        <input type="submit" value="Kirim Pesan">
+      </form>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>@azizramadhan</p>
+  </footer>
+
+</body>
+</html>
